@@ -1,12 +1,13 @@
 //complete this code
 class Animal {
-	private species: string;
+	private _species: string;
+	
 	constructor(species: string){
-		this.species=species;
+		this._species=species;
 	}
 
 	get species(): string{
-		return this.species;
+		return this._species;
 	}
 	
 	makeSound(): void{
